@@ -1,0 +1,157 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 2, 2024, 10:06:04 AM
+    Author     : Randall Hughes
+
+Base layout css file with core elements
+more specific styles are in index.css
+*/
+
+@charset "UTF-8";
+
+/* Custom fonts */
+@font-face {
+    font-family: 'Shlop', sans-serif;
+    
+}
+@font-face{
+    font-family: 'Mistic Terror';
+    font-style: normal;
+    font-weight: 400;
+    src:local(''), url(https://fonts.cdnfonts.com/s/107494/Mistic-Terror-BF654b7f3772cd5.woff) format('woff')
+}
+@font-face {
+    font-family: 'Gypsy Curse';
+    src: url(../font/Gypsy_Curse.ttf) format('ttf');
+}
+
+
+/* Base html and body */
+html {
+    background-color: #242424;
+    padding-bottom: 0px;
+    /* Use percent instead of px for responsiveness (adapts to viewport) */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body {
+    background-color: orange;
+    font-family: Verdana, Arial, Helvetica;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+/* Font */
+sans-serif {
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid black;
+    box-shadow: 0 9px 18px 9px;
+}
+
+/* DEFAULT h1,h2,h3 */
+h1 {
+    color: black;
+}
+
+h2, h3 {
+    color: black
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
+/* ASIDE */
+aside {
+    float: left;
+    width: 100px;
+    padding: 20px 0;
+}
+
+/* TABLES */
+table {
+    border: 1px solid;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #693b00;
+    color: white;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr {
+    background-color: #FED8B1;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
+/* Prominent classes (nav, etc) */
+.main-navbar {
+    text-align: center;
+}
+
+.main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.main-navbar li {
+    float: left;
+}
+
+.main-navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-navbar li a:hover {
+    background-color: #111;
+}
+
+.h1-spooky {
+    font-family: 'Shlop';
+    font-size: 5em;
+    text-align: center;
+    color: black;
+}
+
+.h3-welcome-subheader {
+    text-align: center;
+    font-family: Mistic Terror;
+    font-size: 4em;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%
+}
+
+

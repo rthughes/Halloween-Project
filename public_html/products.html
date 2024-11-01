@@ -12,19 +12,24 @@ Authors: Randall Hughes, Faibertha Francois
         <meta name="description" content="The go-to store for Halloween supplies">
         <meta name="author" content="Randall Hughes, Faibertha Francois">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.cdnfonts.com/css/shlop" rel="stylesheet">
+        <link rel="stylesheet" href="base.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
     </head>
     
     <body>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="products.html">Products</a> |
-            <a href="stories.html">Stories</a>
+        <nav class="main-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="stories.html">Stories</a></li>
+            </ul>
         </nav>
 
-        <h1>Halloween Store - Products</h1>
+        <h1 class="h1-spooky">Products</h1>
 
-        <img src="images/halloween_props.png" alt="Halloween props image"/>
-        <h2 id="props">Props</h2>
+        <img class="product-image" src="images/halloween_props.png" alt="Halloween props image"/>
+        <h2 class="product-table-header" id="props">Props</h2>
         <table>
             <tr>
                 <th>Item name</th>
@@ -59,10 +64,10 @@ Authors: Randall Hughes, Faibertha Francois
         </table>
 
         <!--Line breaks to space it out-->
-        <br> <br> <br>
-        <img src="images/special_effects.png" alt="Spooky special effects"/>
-        <h2 id="special-effects">Special effects</h2>
-        <table>
+        <br> <br> <br> <br>
+        <img class="product-image" src="images/special_effects.png" alt="Spooky special effects"/>
+        <h2 class="product-table-header" id="special-effects">Special effects</h2>
+        <table class="product-table">
             <tr>
                 <th>Item name</th>
                 <th>Description</th>

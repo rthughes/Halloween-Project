@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 24, 2024, 3:58:25 PM
+    Author     : Randall Hughes
+*/
+
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Mistic Terror';
+    font-style: normal;
+    font-weight: 400;
+    src:local(''), url(https://fonts.cdnfonts.com/s/107494/Mistic-Terror-BF654b7f3772cd5.woff) format('woff')
+}
+
+/* CLASSES */ 
+.product-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    border-radius: 10%;
+}
+
+.product-table-header {
+    text-align: center;
+    font-family: 'Mistic Terror';
+    font-size: 4.5rem;
+}
+
+.product-table {
+    align-content: center;
+    align-items: center;
+}
+
+.pageheader {
+    text-align: center
+}
+
+.pagesubheader {
+    text-align: center
+}
+
+.h2-subheader {
+    text-align: center;
+}
+
+.centered-paragraph-padded {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.centered-image-rounded {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40%;
+}
+
+.centered-h1, .centered-h2, .centered-h3 {
+    text-align: center;
+}
+
+.padded-paragraph {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.product-categories-list, .product-categories-list li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.product-categories-list li a {
+    color: black;
+    text-decoration: underline;
+}
+
+.product-categories-list li a:hover {
+    color: blue;
+}
+
+.story-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
